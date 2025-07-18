@@ -10,25 +10,46 @@ function App() {
     >
       <div className=" fixed flex flex-wrap justify-center  bottom-12 left-1/2 transform -translate-x-1/2">
         <div className="flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-3xl">
-          <button className="outline-None rounded-full px-4 shadow-sm" style={{ backgroundColor: "red", color: "white" }} 
+          <button
+          onClick={() => setColor("red")}
+
+           className="outline-None rounded-full px-4 shadow-sm "  style={{ backgroundColor: "red", color: "white" }} 
          >
             red</button>
-          <button className="outline-None rounded-full px-4 shadow-sm" style={{ backgroundColor: "blue", color: "white" }} 
+          <button
+          onClick={() => setColor("blue")}
+
+          className="outline-None rounded-full px-4 shadow-sm" style={{ backgroundColor: "blue", color: "white" }} 
          >
             Blue</button>
-          <button className="outline-None rounded-full px-4 shadow-sm" style={{ backgroundColor: "green", color: "white" }} 
+          <button 
+          onClick={() => setColor("green")}
+
+          className="outline-None rounded-full px-4 shadow-sm" style={{ backgroundColor: "green", color: "white" }} 
          >
             green</button>
-          <button className="outline-None rounded-full px-4 shadow-sm" style={{ backgroundColor: "Orange", color: "white" }} 
+          <button 
+          onClick={() => setColor("orange")}
+
+          className="outline-None rounded-full px-4 shadow-sm" style={{ backgroundColor: "Orange", color: "white" }} 
          >
             Orange</button>
-          <button className="outline-None rounded-full px-4 shadow-sm" style={{ backgroundColor: "yellow", color: "white" }} 
+          <button 
+          onClick={() => setColor("yellow")}
+
+          className="outline-None rounded-full px-4 shadow-sm" style={{ backgroundColor: "yellow", color: "white" }} 
          >
             Yellow</button>
-          <button className="outline-None rounded-full px-4 shadow-sm" style={{ backgroundColor: "pink", color: "white" }} 
+          <button
+          onClick={() => setColor("pink")}
+
+           className="outline-None rounded-full px-4 shadow-sm" style={{ backgroundColor: "pink", color: "white" }} 
          >
             Pink</button>
-          <button className="outline-None rounded-full px-4 shadow-sm" style={{ backgroundColor: "red", color: "voilate" }} 
+          <button
+          onClick={() => setColor("violet")}
+
+           className="outline-None rounded-full px-4 shadow-sm" style={{ backgroundColor: "red", color: "voilate" }} 
          >
             voilate</button>
 
